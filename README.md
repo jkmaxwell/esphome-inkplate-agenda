@@ -33,14 +33,14 @@ for a forced data refresh or to OTA flash it.
 
 ### Inkplate6
 
-1. Copy the [inkplate.yaml](inkplate.yaml) and [inkplate.h](inkplate.h) files into your ESPHome config directory. 
+1. Copy the [inkplate.yaml](inkplate.yaml) and [inkplate.h](inkplate.h) files into your ESPHome config directory.
    This is `/config/esphome` if using ESPHome via the Home Assistant Supervisor.
 2. Add/change the `!secret` keys to match your own
 3. Compile and Upload
 
 ### Node Red
 
-1. Create a service account on the [Google Developers Console](https://console.developers.google.com/apis/credentials) 
+1. Create a service account on the [Google Developers Console](https://console.developers.google.com/apis/credentials)
 2. Create and download a new key for that service account in JSON format
 3. Place the download json key as text into the Node Red configuration for Google
 4. Share the Google Calendar with the email address for this service account
@@ -56,7 +56,6 @@ for a forced data refresh or to OTA flash it.
 <img alt="Node Red Flow" src="images/node-red.png" width="400" />
 
 
-## Thanks
+## Attribution
 
-Thanks to [@jkmaxwell](https://github.com/jkmaxwell) and his [Family Calendar](https://github.com/jkmaxwell/Inkplate-ESPHome-Family-Calendar) 
-for kicking me into gear to build mine. I got the basic layout and ideas from there and improved on the backend flow (I am no good with the actual design of the screen and layout). 
+Originally by [@jkmaxwell](https://github.com/jkmaxwell) via [Family Calendar](https://github.com/jkmaxwell/Inkplate-ESPHome-Family-Calendar), who is absolutely not an engineer. Code rewritten and improved by [@jesserockz](https://github.com/jesserockz)
